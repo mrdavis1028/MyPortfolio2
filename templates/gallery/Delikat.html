@@ -1,0 +1,57 @@
+{% extends "pages/base-home.html" %}
+{% load static %}
+{% block title %}
+    About
+{% endblock %}
+{% block body %}
+    <div class="container ps-5 pe-5 p-3" style="background-color: black">
+        <div class="row pt-5 m-2 d-flex justify-content-center" >
+            <div class="col">
+                <img src="{% static 'images/apple_pres.jpg'%}" style="width: 100%;" class="center">
+            </div>
+        </div>
+    <div class="row pt-5 m-2 d-flex justify-content-center" >
+            <div class="col">
+                <img src="{% static 'images/bilberry_pres.jpg'%}" style="width: 100%;" class="center">
+            </div>
+        </div>
+
+    <div class="row pt-5 m-2 d-flex justify-content-center" >
+            <div class="col">
+                <img src="{% static 'images/orange_pres.jpg'%}" style="width: 100%;" class="center">
+            </div>
+        </div>
+
+    </div>
+
+    <div class=" container p-5">
+      <div class="row pt-5">
+        <div class="col-lg-6 justify-content-lg-center">
+            <h1 id="base-title" style="font-size: 400%">Delikatesse</h1>
+        </div>
+        <div class="col-lg-6 justify-content-center">
+            <p style="font-size: 150%;">This was a project I did which involved creating a packaging and brand design for an all natural juice company.</p>
+        </div>
+    </div>
+        <div class="row m-5 p-5 black">
+            <div class="col">
+                <h1>Design</h1>
+                <p class="gallery-item-text">The goal of this design was to adhere to the guidelines of the client. The logo was to be strictly typographic as well as incorporate scandinavian geometric design patterns in some way. In addition, the designs had to appeal to our target market which were younger professionals who wanted fresh juice and were attracted to upscale branding. Skills used include Photoshop, Illustrator, and InDesign.</p>
+            </div>
+        </div>
+
+        <div class="row m-5 p-5 black">
+            <div class="col">
+                <h1 >Process</h1>
+                <p class="gallery-item-text">My process involved a few rounds of ideation, singling out about 20-30 sketches into a finalized logo and eventual package design. From there I generated the final mockup which you can see above. My main struggles were trying to focus on strictly type and geometry to convey the themes of the company, with little to no reliance on illustration. However, I surmounted this obstacle and was very pleased with the result.</p>
+            </div>
+        </div>
+
+        <div class="row m-5 p-5 black">
+            <div class="col">
+                <h1>Outcome(s)</h1>
+                <p class="gallery-item-text">The main outcome was more confidence in my ability to use type to convey feeling without using any illustration or well-known symbols. I also had a lot of fun coming up with the designs I used on the bottle using very primitive shapes like circles, lines, and triangles.</p>
+            </div>
+        </div>
+    </div>
+{% endblock %}

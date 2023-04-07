@@ -1,0 +1,76 @@
+{% extends "pages/base-home.html" %}
+{% load static %}
+{% block title %}
+    About
+{% endblock %}
+{% block body %}
+    <div class="container ps-5 pe-5 p-3" style="background-color: black">
+        <div class="row m-2 pt-5 d-flex justify-content-center" >
+            <div class="col">
+                <img src="{% static 'images/sketches.jpg'%}" style="width: 100%;" class="center">
+            </div>
+        </div>
+        <div class="row m-2 pt-5 d-flex justify-content-center" >
+            <div class="col">
+                <img src="{% static 'images/Screenshot (6).png'%}" style="width: 100%;" class="center">
+            </div>
+        </div>
+
+        <div class="row m-2 pt-5 d-flex justify-content-center" >
+            <div class="col">
+                <img src="{% static 'images/finalMockups.jpg'%}" style="width: 100%;" class="center">
+            </div>
+        </div>
+
+    </div>
+    <div class="container ps-5 pe-5 p-3" style="background-color: black">
+
+    <div class="row pt-5">
+            <div class="col-lg-6 justify-content-lg-center">
+                <h1 id="base-title" style="font-size: 400%">Making My Site</h1>
+            </div>
+            <div class="col-lg-6 justify-content-center">
+                <p style="font-size: 150%;">I decided to build my own site form scratch to practice what I have been learning about both user interface design as well as web development and programming. This was a great opportunity for me to showcase my skills, practice, and learn more about these topics.</p>
+            </div>
+        </div>
+    </div>
+    <div class=" mt-5 container ">
+        <div class="row m-5 p-5 black">
+            <div class="col">
+                <h1>Skills Used</h1>
+                <p class="gallery-item-text">Figma, Photoshop, HTML, CSS, Javascript, Django</p>
+            </div>
+        </div>
+        <div class="row m-5 p-5 black">
+            <div class="col">
+                <h1>Design</h1>
+                <p class="gallery-item-text">I actually used figma to do the initial designing of my website. I wanted to make sure the design was what I wanted as well as something that would appeal to users before I actually built the website. I wanted to properly establish my visual hierarchies and proximity before coding as to avoid as many hiccups as possible.</p>
+            </div>
+        </div>
+
+        <div class="row m-5 p-5 black">
+            <div class="col">
+                <h1>Process</h1>
+                <p class="gallery-item-text">Using the principles of UX design, I decided to consult about 5 of my peers regarding how they felt a portfolio website should look and feel like as well as what made websites pleasurable for them. From here, I was able to distill their insights into 3 actionable ideas to govern the creation of my website.</p>            </div>
+
+        </div>
+
+    <div class="row m-5 p-5 black">
+            <div class="col">
+                <h4>1. Make the theme darker </h4>
+                <p>This eases the strain on the eye for most of the users I interviewed and is more soothing.</p>
+                <h4> 2. Make the portfolio a story about yourself</h4>
+                <p>Both fellow designers as well as other peers considered the best portfolio websites to be the ones that gave off a personal feel as opposed to something more focused on design accolades alone.</p>
+                <h4> 3. Make the website pleasurable on both mobile and desktop screens</h4>
+                <p>A common thread among the users I interviewed was that they view most things on their phone nowadays. However, they interjected that someone (i.e. an interviewer) may be sitting down at a desktop to view my work. Thus, making an interface that looked nice on both kinds of devices was a great way to cover my bases.</p>
+            </div>
+    </div>
+            <div class="row m-5 p-5 black">
+                <div class="col">
+                    <h1>Outcome(s)</h1>
+                    <p class="gallery-item-text">The final outcome of my website is what you have been looking at this whole time. I took the insights from my interviewees, distilled them into usable guidelines for my interface design, mocked it up in figma, and executed it fully using code. The first picture includes my initial sketches. The second includes the higher-fidelity mockups I made in Figma, after consulting my peers and noting their insights. The last picture showcases a full screenshot of the website you are viewing now, both its mobile and desktop formats.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

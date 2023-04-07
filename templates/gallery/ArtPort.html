@@ -1,0 +1,33 @@
+{% extends "pages/base-home.html" %}
+{% load static %}
+{% block title %}
+    About
+{% endblock %}
+{% block body %}
+    <div class="flex-container ps-5 pe-5 p-3" style="background-color: black">
+        <div class="row pt-2" >
+            <div class="col-lg-4">
+                <div class="show-div d-flex justify-content-center align-items-center" style="background-image: url('{% static 'images/queen.jpg' %}');">
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="show-div d-flex justify-content-center align-items-center" style="background-image: url('{% static 'images/IMG_2457.jpg' %}');">
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="show-div d-flex justify-content-center align-items-center" style="background-image: url('{% static 'images/painting.jpg' %}');">
+                </div>
+            </div>
+        </div>
+     <div class="row pt-5">
+            <div class="col-lg-6 justify-content-lg-center">
+                <h1 id="base-title" style="font-size: 400%">Artwork</h1>
+            </div>
+            <div class="col-lg-6 justify-content-center">
+                <p style="font-size: 150%;">Here are a few pieces of artwork I wanted to share in order to showcase the creativity I engage in when I have free time. This is really just a fun and relaxing hobby that I've done for as long as I can remember.</p>
+            </div>
+        </div>
+    </div>
+
+
+{% endblock %}

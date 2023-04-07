@@ -1,0 +1,46 @@
+{% extends "pages/base-home.html" %}
+{% load static %}
+
+{% block title %}
+    About
+{% endblock %}
+{% block body %}
+    <div class="flex-container ps-5 pe-5" style="background-color: black">
+        <div class="row d-flex align-items-center">
+            <div class="col-lg-6">
+                <h1 style="font-size: 400%" id="base-title">About Me</h1>
+                <h4 style="font-size: 250%">Julian Davis--Artist, Illustrator, Designer</h4>
+            </div>
+            <div class="col-lg-6 d-flex justify-content-center justify-content-lg-end">
+                <img src="{% static "images/me2.png" %}" style="width: 60%;">
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row m-5 mb-5" >
+            <div class="col">
+                <div class="about-div p-5">
+                    <h1>Experience</h1>
+                    <p>I have undertaken a lot of personal and professional work from clients as a freelancer. I have experience designing logos, clothing, and digital products. Please check out some of these featured projects in my projects section.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row m-5 mb-5" >
+            <div class="col">
+                <div class="about-div p-5" >
+                    <h1>Education</h1>
+                    <p>I am currently pursuing a Bachelor’s Degree of Arts in Graphic Design with a minor in Computer Science. I am expected to graduate in December 2023.
+                        Some relevant courses I have taken include Graphic Arts Processes, Data Files and Structures, History and Design of Typography, and Web Programming.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row m-5 mb-5" >
+            <div class="col">
+                <div class="about-div p-5">
+                    <h1>Personal </h1>
+                    <p>I do a few other things outside of design. I love art, both going to museums to see it in addition to creating my own. I have been drawing since I was little, and began painting a bit more recently. I even dabble in 3D sculpting, though I am still learning. I also enjoy working out to stay in shape and relieve stress as well as spending time with my family.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

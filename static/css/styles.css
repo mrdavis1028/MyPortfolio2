@@ -1,0 +1,203 @@
+h1
+{
+    color: white;
+    font-family: 'Pirata One';
+
+}
+body
+{
+    background-color: black;
+}
+.home-div
+{
+    color: white;
+    padding: 8%;
+    margin: 3%;
+    opacity: 70%;
+}
+.home-div:hover
+{
+    opacity: 100%;
+}
+#site-div
+{
+    background-color: black;
+}
+
+.about-div
+{
+    background-color: black;
+    padding: 10%;
+}
+.project-div
+{
+    opacity: 70%;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    margin-bottom: 6%;
+
+}
+
+#insta-link
+{color: red;
+text-decoration: none}
+.neg-margin
+{
+    margin:-3%;
+}
+
+
+.project-div:hover
+{
+    opacity: 100%;
+}
+.show-div
+{
+    opacity: 70%;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    margin-bottom: 6%;
+    justify-content: center;
+    text-align: center;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+hr {
+        position: relative;
+        border: none;
+        height: 6px;
+        background: red;
+        margin-bottom: 20px;
+    }
+.nav-link
+{
+    color: red !important;
+     font-size: 140%;
+    font-family: 'Pathway Gothic One';
+}
+.nav-link:hover
+{
+    color:white !important;
+}
+.custom-toggler-color
+{
+    border-color: red;
+}
+.navbar-toggler
+{
+    display: flex;
+    justify-content: end;
+}
+p
+{
+    color: white;
+    font-family: 'Pathway Gothic One';
+}
+h2, h3, h4
+{
+    color: white;
+    font-family: "Bebas Neue";
+}
+.black
+{
+    background-color: black;
+}
+.about-div > p
+{
+    font-size: 120%;
+}
+.gallery-item-text
+{
+    font-size: 120%;
+}
+.navbar-toggler
+{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    transition: .5s ease-in-out;
+}
+
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus
+{
+    outline: none;
+    box-shadow: none;
+    border: 0;
+}
+.navbar-toggler-span
+{
+    margin: 0;
+    padding: 0;
+}
+.toggler-icon
+{
+    display: block;
+    position: absolute;
+    height: 3px;
+    width:100%;
+    background: red;
+    border-radius: 1px;
+    opacity: 1;
+    left:0;
+    transform: rotate(0deg);
+    transition: .25s ease-in-out;
+}
+.middle-bar
+{
+    margin-block: 0px;
+
+}
+
+.navbar-toggler .top-bar
+{
+    margin-top: 0px;
+    transform: rotate(135deg);
+}
+.navbar-toggler .middle-bar
+{
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+.navbar-toggler .bottom-bar
+{
+    margin-top: 0px;
+    transform: rotate(-135deg);
+}
+
+.navbar-toggler.collapsed .top-bar
+{
+    margin-top: -20px;
+    transform: rotate(0deg);
+}
+
+.navbar-toggler.collapsed .middle-bar
+{
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+.navbar-toggler.collapsed .bottom-bar
+{
+    margin-top: 20px;
+    transform: rotate(0deg);
+
+}
+.contact-link
+{
+    color: white;
+    text-decoration: none !important;
+}
+.contact-link:hover
+{
+    color: red;
+}

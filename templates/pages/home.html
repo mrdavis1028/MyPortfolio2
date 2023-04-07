@@ -1,0 +1,46 @@
+{% extends "pages/base-home.html" %}
+{% load static %}
+{% block title %}
+    Home
+{% endblock %}
+{% block body %}
+
+    <div class="row ">
+        <div class="col">
+            <div id="about-div" class="home-div d-flex justify-content-center" style="background-image: url('{% static 'images/meupClose.jpg' %}');background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;">
+                <h1>About Me</h1>
+                <a href="{% url 'about' %}"></a>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <div id="site-div" class="home-div d-flex justify-content-center" style="background-color: red">
+                <h1>Making this Site</h1>
+                <a href="{% url 'site' %}"></a>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <div id="gallery-div" class="home-div d-flex justify-content-center" style="background-image: url('{% static 'images/julian_davis_presentation copy 2.jpg' %}');background-position: top center;
+                    background-repeat: no-repeat;
+                    background-size: cover;">
+                <h1>Projects</h1>
+                <a href="{% url 'gallery' %}"></a>
+            </div>
+        </div>
+    </div>
+        <script>
+        $('#site-div').click(toLink)
+        $('#about-div').click(toLink)
+        $('#gallery-div').click(toLink)
+        function toLink()
+        {
+            window.location=$(this).find("a").attr("href");
+        }
+
+    </script>
+{% endblock %}
